@@ -1,0 +1,46 @@
+.Nav_images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav_container{
+    display: flex;
+    width: 100vw;
+    height: 69px;
+    align-items: center;
+    position: fixed;
+    padding: 0 2rem;
+    transition: all 0.5s ease-in-out;
+    
+
+
+}
+.nav_container::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+}
+.logo{
+    width: 16rem;
+    height: 10rem;
+}
+.logo2{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.nav_black{
+background-color: black;
+z-index: 1;
+
+}
+@media only screen and ( max-width:430px ){
+    .nav_container{
+        padding: 0rem 0rem;
+    }
+    .logo{
+        width: 13rem;
+        height: 8rem;
+    }
+}

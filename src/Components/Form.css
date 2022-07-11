@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.Form_container{
+    display: flex;
+    justify-content: center;
+}
+.form_elements{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    padding: 7.5rem;
+    background-color: rgba(0,0,0,0.6);
+
+}
+.form_elements h1{
+    color: white;
+    font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+
+}
+.form_elements form{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.form_elements form input{
+    padding: 1.6rem;
+    background: #303030;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    color: white;
+}
+.form_elements form button{
+    margin-top: 3rem;
+    padding:1.4rem ;
+    background-color: #e50914;
+    font-size:12px;
+    font-weight: bold;
+  font-family: "Roboto", sans-serif;
+
+
+}
+.form_elements form button:hover{
+    background-color: #e50914;
+}
+.extra_details{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.extra_details p{
+    color:#b3b3b3 ;
+  font-family: "Roboto", sans-serif;
+font-size: 12px;
+}
+.form_signup{
+    margin-top: 6rem;
+    display: flex;
+    gap: 0.3rem;
+}
+.form_signup span{
+    color: white;
+  font-family: "Roboto", sans-serif;
+font-size: 16px;
+cursor: pointer;
+}
+.form_signup span:hover{
+    text-decoration: underline;
+}
+.form_signup p{
+    color:#b3b3b3 ;
+  font-family: "Roboto", sans-serif;
+font-size: 16px;
+
+}
+@media only screen and (max-width: 740px) {
+    body {
+      background-color:rgba(0,0,0,1);
+    }
+    
+    .form_elements{
+        width: 100vw;
+        padding: 3vw;
+        }
+        
+    
+  }

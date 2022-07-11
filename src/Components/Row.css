@@ -1,0 +1,40 @@
+.row_container{
+    background-color: rgba(0,0,0,1);
+}
+
+.row_content h1{
+    color: white;
+    padding:2rem 2rem;
+
+}
+
+.row_image{
+    margin-top: 1rem;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 2rem;
+}
+.row_image::-webkit-scrollbar{
+    display: none;
+    
+}
+ .Row_cross{
+
+    width: 12rem;
+    height: 18rem;
+    border-radius: 8px;
+    transition:transform 0.4s ease-in-out;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+
+.Row_cross:hover{
+    transform: scale(1.1);
+}
+.large_icon{
+    width: 16rem;
+    height: 25rem;
+}
