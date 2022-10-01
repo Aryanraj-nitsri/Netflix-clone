@@ -15,7 +15,7 @@ import './BoxtypeOne.css'
           </div>
           <div className="tv_image">
             <div className="tv_video">
-               <video src='../../lust.m4v' autoplay="true" loop="true" muted>
+              <video src='../../lust.m4v' autoPlay={true} loop={true} muted>
                 Your browser does not support the video tag.
               </video> 
             </div>

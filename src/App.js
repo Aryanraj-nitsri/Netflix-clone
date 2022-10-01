@@ -4,7 +4,8 @@ import Header from './Components/Header';
 import Homescreen from './Components/Homescreen';
 import { useSelector, useDispatch } from 'react-redux'
 import { getAuth, onAuthStateChanged } from "firebase/auth";
-import {signIn, usersignOut} from  "./features/Userslice"
+import { signIn, usersignOut } from "./features/Userslice";
+import db from './Components/Firebase';
 
 
 function App() {

@@ -9,19 +9,7 @@ import {
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { signIn} from "../features/Userslice";
-import { initializeApp } from "firebase/app";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyD6LdRXhop4Qkr661392cFXrL68X_lPIU8",
-  authDomain: "netflix-clone-616e4.firebaseapp.com",
-  projectId: "netflix-clone-616e4",
-  storageBucket: "netflix-clone-616e4.appspot.com",
-  messagingSenderId: "173798426060",
-  appId: "1:173798426060:web:8e7a30d7119d84ea748969",
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 
 function Form({ setstarted }) {
   const dispatch = useDispatch();

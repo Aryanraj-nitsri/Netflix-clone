@@ -22,13 +22,14 @@ function Header() {
         <div className="header_nav">
           <img src="../../logo.svg" alt="network error" />
           <div className="header_button">
-            
-              <Button variant="contained" onClick={() =>{started?setstarted(false):setstarted(true)} }>
-               {!started ?  "Sign In":"Back"} 
-              </Button>
-            
-              
-            
+            <Button
+              variant="contained"
+              onClick={() => {
+                started ? setstarted(false) : setstarted(true);
+              }}
+            >
+              {!started ? "Sign In" : "Back"}
+            </Button>
           </div>
         </div>
         {started ? (

@@ -14,7 +14,7 @@ function Boxtypethree() {
           </div>
           <div className="tv_image3">
           <div className="tv_video3">
-               <video src='../../saif.m4v' autoplay="true" loop="true" muted>
+              <video src='../../saif.m4v' autoPlay={true} loop={true} muted>
                 Your browser does not support the video tag.
               </video> 
             </div>
